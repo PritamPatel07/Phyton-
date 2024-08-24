@@ -1,0 +1,37 @@
+make_my_trip = {
+    "flights": {
+        "destinations": ["Delhi", "Mumbai"],
+        "airlines": ["Air India", "Indigo"],
+        "prices": {
+            "Delhi-Mumbai": {
+                "Economy": 5000, 
+                "Business": 20000
+            }
+        }
+    },
+    "hotels": {
+        "cities": ["Delhi"],
+        "hotel_names": ["Taj Mahal Hotel"],
+        "prices_per_night": {
+            "Delhi": {
+                "Taj Mahal Hotel": 10000
+            }
+        }
+    },
+    "trains": {
+        "routes": ["Delhi-Mumbai"],
+        "prices": {
+            "Delhi-Mumbai": {
+                "Sleeper": 1500
+            }
+        }
+    },
+    "buses": {
+        "routes": ["Delhi-Agra"],
+        "prices": {
+            "Delhi-Agra": {
+                "AC Seater": 800
+            }
+        }
+    }
+}
